@@ -22,3 +22,7 @@ colorscheme plastic
 let g:lightline = { 'colorscheme': 'plastic' }
 ```
 
+## FORGINFO
+Forged to improve performance when loading the plugin by using the rtp **syntax** directory.
+
+Starktime and plugin performance was measured with [this plugin](https://github.com/hyiltiz/vim-plugins-profile).

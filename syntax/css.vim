@@ -1,0 +1,21 @@
+" Css {{{
+call Hi('cssAttrComma', punctuation, none, 'none', {})
+call Hi('cssAttributeSelector', green, none, 'none', {})
+call Hi('cssBraces', punctuation, none, 'none', {})
+call Hi('cssClassName', aqua, none, 'none', {})
+call Hi('cssDefinition', purple, none, 'none', {})
+call Hi('cssFontAttr', whisky, none, 'none', {})
+call Hi('cssFontDescriptor', purple, none, 'none', {})
+call Hi('cssFunctionName', blue, none, 'none', {})
+call Hi('cssIdentifier', blue, none, 'none', {})
+call Hi('cssImportant', purple, none, 'none', {})
+call Hi('cssInclude', white, none, 'none', {})
+call Hi('cssIncludeKeyword', red, none, 'none', {})
+call Hi('cssMediaType', aqua, none, 'none', {})
+call Hi('cssProp', white, none, 'none', {})
+call Hi('cssPseudoClassId', whisky, none, 'none', {})
+call Hi('cssTagName', whisky, none, 'none', {})
+call Hi('cssSelectorOp', purple, none, 'none', {})
+call Hi('cssSelectorOp2', purple, none, 'none', {})
+"}}}
+
