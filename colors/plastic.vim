@@ -46,10 +46,11 @@ let aqua = { 'gui': '#56b6c2', 'cterm256': '38'}
 let white = { 'gui': '#d7d7d7', 'cterm256': '145'}
 let black = { 'gui': '#181a1f', 'cterm256': '234'}
 let visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
-let background = {'gui': '#21252b', 'cterm256': '235'}
+let background = {'gui': 'NONE', 'cterm256': 'NONE'}
 let foreground = {'gui': '#a9b2c3', 'cterm256': '235'}
 let grey = { 'gui': '#abb2bf', 'cterm256': '59' }
-let punctuation = { 'gui': '#7c8696', 'cterm256': '238' }
+let punctuation = { 'gui': '#7c8696', 'cterm256': '240' }
+let lightgrey = { 'gui': '#808080', 'cterm256': '102' }
 let none = {'gui': 'NONE', 'cterm256': 'NONE'}
 
 " }}}
@@ -68,12 +69,12 @@ call Hi('CursorLine', white, none, 'bold', {})
 call Hi('EndOfBuffer', whisky, none, 'none', {})
 call Hi('Conceal', blue, none, 'none', {})
 call Hi('CursorColumn', none, blue, 'none', {})
-call Hi('ColorColumn', none, punctuation, 'none', {})
+call Hi('ColorColumn', none, green, 'none', {})
 call Hi('FoldColumn', punctuation, background, 'none', {})
 call Hi('SignColumn', none, background, 'none', {})
 call Hi('VertSplit', grey, background, 'none', {})
-call Hi('LineNr', punctuation, background, 'none', {})
-call Hi('CursorLineNr', punctuation, background, 'none', {})
+call Hi('LineNr', yellow, background, 'none', {})
+call Hi('CursorLineNr', whisky, background, 'none', {})
 
 call Hi('DiffAdd', black, green, 'none', {})
 call Hi('DiffChange', black, purple, 'none', {})
@@ -86,7 +87,7 @@ call Hi('MoreMsg', aqua, none, 'bold', {})
 call Hi('WarningMsg', whisky, none, 'italic', {})
 call Hi('Noise', punctuation, none, 'none', {})
 call Hi('NonText', whisky, none, 'none', {})
-call Hi('Folded', grey, none, 'none', {})
+call Hi('Folded', yellow, none, 'none', {})
 call Hi('IncSearch', yellow, black, 'none', {})
 call Hi('Search', yellow, background, 'reverse', {})
 
@@ -112,6 +113,7 @@ hi link StatusLineTermNC StatusLineNC
 call Hi('TabLine', white, black, 'none', {})
 hi link TabLineFill TabLine
 call Hi('TabLineSel', whisky, black, 'none', {})
+call Hi('TabLineFill', black, black, 'none', {})
 
 call Hi('Title', white, none, 'none', {})
 call Hi('Visual', black, white, 'none', {})
@@ -125,7 +127,7 @@ call Hi('WildMenu', black, white, 'bold', {})
 " http://vimdoc.sourceforge.net/htmldoc/syntax.html
 "----------------------------------------------------
 " {{{
-call Hi('Comment', grey, none, 'italic', {})
+call Hi('Comment', lightgrey, none, 'italic', {})
 
 call Hi('Constant', aqua, none, 'none', {})
 call Hi('String', green, none, 'none', {})
