@@ -36,21 +36,21 @@ endfun
 
 " colors definition {{{
 
-let red = {'gui': '#e06c75', 'cterm256': '204'}
-let green = { 'gui': '#98c379', 'cterm256': '114'}
-let yellow = { 'gui': '#e5c07b', 'cterm256': '180'}
-let whisky = { 'gui': '#d19a66', 'cterm256': '173' }
-let blue = { 'gui': '#61afef', 'cterm256': '39'}
-let purple = { 'gui': '#af98e6', 'cterm256': '170'}
-let aqua = { 'gui': '#56b6c2', 'cterm256': '38'}
-let white = { 'gui': '#d7d7d7', 'cterm256': '145'}
-let black = { 'gui': '#181a1f', 'cterm256': '234'}
+let red = {'gui': '#ff5f87', 'cterm256': '204'}
+let green = { 'gui': '#87d787', 'cterm256': '114'}
+let yellow = { 'gui': '#d7af87', 'cterm256': '180'}
+let whisky = { 'gui': '#d7875f', 'cterm256': '173' }
+let blue = { 'gui': '#00afff', 'cterm256': '39'}
+let purple = { 'gui': '#d75fd7', 'cterm256': '170'}
+let aqua = { 'gui': '#00afd7', 'cterm256': '38'}
+let white = { 'gui': '#afafaf', 'cterm256': '145'}
+let black = { 'gui': '#1c1c1c', 'cterm256': '234'}
 let visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
 let background = {'gui': 'NONE', 'cterm256': 'NONE'}
-let foreground = {'gui': '#a9b2c3', 'cterm256': '235'}
-let grey = { 'gui': '#abb2bf', 'cterm256': '59' }
-let punctuation = { 'gui': '#7c8696', 'cterm256': '240' }
-let lightgrey = { 'gui': '#808080', 'cterm256': '102' }
+let foreground = {'gui': '#262626', 'cterm256': '235'}
+let grey = { 'gui': '#5f5f5f', 'cterm256': '59' }
+let punctuation = { 'gui': '#585858', 'cterm256': '240' }
+let lightgrey = { 'gui': '#878787', 'cterm256': '102' }
 let none = {'gui': 'NONE', 'cterm256': 'NONE'}
 
 " }}}
